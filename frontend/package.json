@@ -1,0 +1,23 @@
+{
+    "name": "social-network-frontend",
+    "private": true,
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+      "dev": "vite",
+      "build": "tsc && vite build",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "axios": "^1.5.0",
+      "react-router-dom": "^6.16.0",
+      "zustand": "^4.4.1"
+    },
+    "devDependencies": {
+      "@vitejs/plugin-react": "^4.0.0",
+      "typescript": "^5.0.4",
+      "vite": "^4.3.0"
+    }
+  }
