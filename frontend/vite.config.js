@@ -6,5 +6,10 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     sourcemap: true
+  },
+  server: {
+    proxy: {
+      '/api': 'https://your-backend-url.render.com'
+    }
   }
 });
